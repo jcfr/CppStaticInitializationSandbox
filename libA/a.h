@@ -1,7 +1,9 @@
 
 #include <string>
 
-class A
+#include "liba_export.h"
+
+class LIBA_EXPORT A
 {
 public:
   A(const std::string& value);

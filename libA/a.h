@@ -9,4 +9,6 @@ public:
   A(const std::string& value);
 
   std::string Value;
+
+  static A fruit;
 };

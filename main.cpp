@@ -10,5 +10,7 @@ int main(int, char*[])
 
   std::cout << "'a' value is [" << a.Value << "]" << std::endl;
 
+  std::cout << "'A::fruit' value is [" << A::fruit.Value << "]" << std::endl;
+
   return EXIT_SUCCESS;
 }

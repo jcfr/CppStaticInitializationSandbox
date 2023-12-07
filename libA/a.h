@@ -10,5 +10,5 @@ public:
 
   std::string Value;
 
-  static A fruit;
+  static const A fruit;
 };
